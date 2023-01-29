@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Fira+Sans:ital,wght@1,100&family=Roboto:wght@300&family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Fira+Sans:ital,wght@0,300;1,100&family=Roboto:wght@300&family=Source+Code+Pro:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: gray;
+    width: 15rem;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.sidebar nav {
+    padding: 30px;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 20px 0;
+
+}
+.sidebar nav li a{
+    text-decoration:none;
+    color: white;
+}
+
+.main {
+    /*background-color: yellow;*/
+    width: 85vw;
+    height: 100vh;
+
+}
+
+.container {
+    display: flex;
+
+}
+
+.infocontainer {
+    background-color: pink;
+    height: 90vh;
+    width: 78vw;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 34px;
+
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 20px;
+
+}
+
+.devpic {
+    margin: auto;
+}
+
+.hello {
+    font-size: 45px;
+    font-weight: bolder;
+
+}
+
+.name {
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.about {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn {
+    margin-top: 34px;
+
+
+}
+
+.btn button {
+    font-size: 15px;
+    padding: 5px 5px;
+    border-radius: 22px;
+    color: white;
+    background-color: blue;
+    font-weight: 15px;
+    margin: 2px 3px ;
+    cursor: pointer;
+
+
+}
+.btn button:hover{
+    background-color:white;
+    color:red;
+
+}
+
+.moreabout {
+    margin-top: 15px;
+    font-size: 22px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.devpic img {
+    margin-top: 23px;
+    width: 60vh;
+    border-radius: 30%;
+    margin: auto;
+
+}
